@@ -35,7 +35,6 @@ test {
     reports.junitXml.destination = file("$buildDir/xml")
     reports.html.destination = file("$buildDir/html")
 }
-
 test {
 	useJUnitPlatform()
 }
